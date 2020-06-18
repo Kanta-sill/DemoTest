@@ -1,5 +1,5 @@
 <?php
-$conn_string = "host=ec2-52-44-55-63.compute-1.amazonaws.com port=5432 dbname=devpq1sen6eh1j user=rjawmetmdmsgrc password=5f40622ca0333f8ea7f0d5afd07053381dd612d3e8f55745d9bafd4f6e859556";
+$conn_string = "host=ec2-52-87-135-240.compute-1.amazonaws.com port=5432 dbname=d6uabjib7gtht3 user=pzxpkikhdgmmuf password=73727526112e6217dd981ddfc4ee440bba263d4a4d8146bcd6305efc12f14005";
 $dbconn=pg_connect($conn_string);
 if(isset($_POST['username'])){
 	$username=$_POST['username'];
