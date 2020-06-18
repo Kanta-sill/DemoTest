@@ -8,7 +8,7 @@ if(isset($_POST['pass'])){
 	$pass=$_POST['pass'];
 }
 
-$sql="select * from tblaccount where _user='".$username."' and _pass='".$pass."'";
+$sql="select * from tblaccount1 where _user='".$username."' and _pass='".$pass."'";
 
 $result = pg_query($dbconn, $sql)
 		or
