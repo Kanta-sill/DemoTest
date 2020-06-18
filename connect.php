@@ -12,7 +12,7 @@ $sql="select * from tblaccount1 where _user='".$username."' and _pass='".$pass."
 
 $result = pg_query($dbconn, $sql)
 		or
-        die("Không thể kết nối database");
+        die("Can not connect to database");
 
 $row=pg_num_rows($result);
 if($row==1)
